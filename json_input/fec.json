@@ -1,0 +1,40 @@
+
+  {
+    "fecName": "first_fec",
+    "fecId": "001",
+    "fecNumericParams": [
+      {
+        "fieldName": "num_inner_fec",
+        "fieldValue": [1,2,3]
+      }
+    ],
+
+    "fecStringParams": [
+      {
+        "fieldName": "str_inner_fec",
+        "fieldValue": [ "n", "m" ]
+      }
+    ],
+
+    "fecDataParam": [
+      {
+        "fieldName": "data_inner_fec",
+        "fieldValue": [ "d1", "d2", "d3", "d4", "dn" ]
+      }
+    ],
+    "fmlFecNumericParams": [
+      {
+        "fieldName": "num_fml_inner_fec",
+        "fieldValue": "fml_content"
+      }
+    ],
+    "fmlFecStringParam": [
+      {
+        "fieldName": "str_fml_inner_fec",
+        "fieldValue": "fml_content"
+      }
+    ]
+
+
+  }
+
