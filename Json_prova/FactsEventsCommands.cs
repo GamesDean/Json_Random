@@ -16,13 +16,13 @@ namespace EasyForecast
     {
       
         public string nome_campo { get; set; }
-        public int[] valore_campo { get; set; }
+        public string[] valore_campo { get; set; }
     }
 
     public class ParametriStringaFec
     {
         public string nome_campo { get; set; }
-        public String[] valore_campo { get; set; }
+        public string[] valore_campo { get; set; }
     }
 
     public class ParametriNumericiFmlFec
@@ -36,7 +36,8 @@ namespace EasyForecast
     public class MasterRootObejct
         {
 
-        public Fec Fec { get; set; }
+        public string fecName { get; set; }
+        public string fecId { get; set; }
         public List<ParametriNumericiFec> ParametriNumericiFec { get; set; }
         public List<ParametriStringaFec>ParametriStringaFec {get;set;}
         public List<ParametriStringaFec> ParametriDataFec { get; set; }
